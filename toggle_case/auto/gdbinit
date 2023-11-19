@@ -1,0 +1,6 @@
+layout asm
+layout regs
+set disassembly-flavor intel
+
+break _start
+run
